@@ -1,0 +1,70 @@
+# ASP.NET Core
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.user
+*.csproj.user
+*.user
+.local
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+
+# Visual Studio cache/options
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test Results
+TestResults/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Local environment
+.env
+appsettings.Local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (if used)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Rider
+.idea/
+.vs/
+out/
