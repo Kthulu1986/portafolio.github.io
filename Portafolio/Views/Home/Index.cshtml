@@ -1,0 +1,39 @@
+﻿@*@model string*@
+@*@model Persona*@
+@model HomeIndexDTO
+@{
+    ViewData["Title"] = "Mi primer";
+    //string ConvertirEnMayusculas(string valor)
+    //{
+    //    return valor.ToUpper() + "--";
+    //}
+    //DateTime hoy = DateTime.Now;
+
+    //var nombres = new List<String>() { "Felipe", "Marilyn", "Sebastian" };
+}
+
+@*<ul>
+    @foreach (var nombre in nombres)
+    {
+        <li>
+            @nombre
+        </li>
+    }
+</ul>*@
+
+@*<h2>Ejemplo 1</h2>
+<div>
+    Guid transitorio : <b style="color: red">@Model.EjemploGUID_1.Transitorio</b>
+</div>
+<div>
+    Guid Delimitado : <b style="color: green">@Model.EjemploGUID_1.Delimitado</b>
+</div>
+<div>
+    Guid Unico : <b style="color: blue">@Model.EjemploGUID_1.Unico</b>
+</div>*@
+
+<partial name="_Presentacion" />
+
+<partial name="_Habilidades" />
+
+<partial name="_SeccProyectos" model="Model.Proyectos" />
